@@ -34,7 +34,20 @@ const handleClick = (event) => {
       resetValue(searchVal);
     }
   };
+  const myKeyPress = (event) => {
+    if (searchVal.value && event.which === 13) {
+      defaultWeather(searchVal.value, toggleUnits(units));
+    }
+  };
 
+  defaultWeather();
+
+  searchVal.addEventListener('click', handleClick);
+  searchVal.addEventListener('click', myKeyPress);
+  document.getElementById('searchBtn').addEventListener('click', handleClick);
+  document.getElementById('toggeleUnits').addEventListener('click', handleClick);
+  /* eslint-disable consistent-return */
+ 
 
   
 })(data, renderHomepage);
