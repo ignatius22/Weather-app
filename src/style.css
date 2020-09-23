@@ -1,3 +1,96 @@
-.hello {
-  color: red;
+body {
+  background: linear-gradient(-45deg, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  background-image: url('https://images.unsplash.com/photo-1562155618-e1a8bc2eb04f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80');
+}
+
+.feel,
+.name,
+.description,
+.temp,
+.date {
+  color: #fff;
+}
+
+button {
+  box-shadow: 5px 5px 15px 5px #000;
+  font-family: 'Gentium Basic', serif;
+}
+
+.name {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 50px;
+}
+
+.description {
+  font-family: 'Gentium Basic', serif;
+  font-size: 35px;
+}
+
+.container {
+  height: 40em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Oswald', sans-serif;
+}
+
+.text-white {
+  font-family: 'Archivo Black', sans-serif;
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+
+.wrap {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.units {
+  border: 1px solid black;
+  width: 40%;
+  margin-left: 30%;
+  height: 2em;
+  background: linear-gradient(gray, black);
+  color: aliceblue;
+  text-align: center;
+}
+
+.units:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.neu {
+  box-shadow: 5px 10px 5px rgba(14, 116, 116, 0.2), -5px -5px 5px rgb(168, 167, 167, 0.2);
+}
+
+.new-nav {
+  background: linear-gradient(to right, #00d2ff, #928dab);
+}
+
+.content {
+  display: grid;
+  align-self: center;
+  width: 60%;
+  height: 30em;
+  margin-left: 20%;
+}
+
+.w-60 {
+  width: 60% !important;
+  margin-left: 20% !important;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
