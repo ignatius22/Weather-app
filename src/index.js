@@ -22,6 +22,19 @@ const controller = ((data, renderHomepage) => {
       return e;
     }
   };
+const handleClick = (event) => {
+    if (event.target.id === 'searchInput') {
+      resetValue(searchVal);
+    } else if (event.target.id === 'toggeleUnits') {
+      event.peventDefault;
+      units = units === 'F' ? 'C' : 'F';
+      defaultWeather(wD.name, toggleUnits(units));
+    } else if (searchVal.value) {
+      defaultWeather(searchVal.value, toggleUnits(units));
+      resetValue(searchVal);
+    }
+  };
+
 
   
 })(data, renderHomepage);
