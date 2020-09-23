@@ -1,14 +1,6 @@
-  import _ from 'lodash';
- import './style.css';
+import data from './data';
+import renderHomepage from './renderPage';
+/* eslint-disable no-unused-vars */
+/* eslint-disable no-confusing-arrow */
+/* eslint-disable no-unused-expressions */
 
-  function component() {
-    const element = document.createElement('div');
-
-    // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-   element.classList.add('hello');
-
-    return element;
-  }
-
-  document.body.appendChild(component());
