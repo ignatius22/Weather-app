@@ -6,3 +6,8 @@ const getFeels = document.getElementById('feels')
 const getTemp = document.getElementById('temp')
 const getToggleUnit = document.getElementById('toggeleUnits')
 
+const renderHomepage = (() => {
+
+})();
+
+export default renderHomepage ;
