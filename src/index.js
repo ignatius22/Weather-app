@@ -12,7 +12,7 @@ const controller = ((data, renderHomepage) => {
   const resetValue = (searchVal) => {
     searchVal.value = '';
   };
- const defaultWeather = async (city = 'Nigeria', unit = 'imperial') => {
+ const defaultWeather = async (city = 'Abuja', unit = 'imperial') => {
     try {
       const result = await data.getWeather(city, unit);
       renderHomepage.renderPage(result, units);
