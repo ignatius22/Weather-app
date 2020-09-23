@@ -9,4 +9,4 @@ const getWeatherData = (() => {
   return { getWeather };
 })();
 
-export default getWeatherData ;
+export default getWeatherData;
