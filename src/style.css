@@ -1,12 +1,24 @@
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    
-    background-image: url('https://v.w-x.co/1592423572883_Smoke_from_Australia_Wildfires_Floated_Higher_than_Ever_Before.jpg');
+    animation: gradient 15s ease infinite;    
+    background-image: url('https://images.unsplash.com/photo-1562155618-e1a8bc2eb04f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80');
+}
+
+.feel, .name, .description, .temp, .date{
+   color: #fff; 
 }
 
 
+.name{
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 50px;
+}
+
+.description{
+   font-family: 'Gentium Basic', serif;
+   font-size: 35px; 
+}
 
 .container {
     height: 40em;
@@ -36,8 +48,8 @@ body {
 .neu {
     box-shadow: 5px 10px 5px rgba(14, 116, 116, 0.2), -5px -5px 5px rgb(168, 167, 167, 0.2);
 }
-.neu-nav {
-    box-shadow: 5px 10px 5px white, -5px -5px 5px rgba(168, 167, 167, 0.699);
+.new-nav {
+  background: linear-gradient(to right, #00d2ff, #928dab); 
 
 }
 .content {
