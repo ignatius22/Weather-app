@@ -4,7 +4,7 @@ This is a weather forecast site built using a weather API. Requirements can be s
 
 ## Live demo
 
-[live demo](https://adoring-swirles-ca3ccf.netlify.app/)
+[live demo](https://jovial-bell-2d2a8d.netlify.app/)
 
 - Screenshot
 ![alt text](./src/img/home.png)
